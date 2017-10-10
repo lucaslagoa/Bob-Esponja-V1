@@ -40,12 +40,12 @@ void Desenha(void)
 	/*   DESENHA BASE  */
 	glColor3f(1.0f,1.0f,0.0f);
 	glPushMatrix();
-		glScalef(3*raio,3*raio,raio);
+		glScalef(3*raio,4*raio,raio);
 		glutSolidCube(10.0f);
 	glPopMatrix();
 
 
-	glTranslatef(-5.0f, -20.0f, 0.0f);
+	glTranslatef(-5.0f, -25.0f, 0.0f);
 
 	/*  BOLA DA PERNA    */
 
@@ -144,7 +144,7 @@ void Desenha(void)
 
 	// OMBRO 
 
-	glTranslatef(-22.0f, 40.0f, 0.0f);
+	glTranslatef(-22.0f, 50.0f, 0.0f);
 
 
 	glColor3f(0.0f,1.0f,1.0f);
